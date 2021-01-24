@@ -1,0 +1,114 @@
+body {
+    background-color: #181A1F;
+    color: #33A7C6;
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 125%;
+}
+
+h1 {
+    justify-content: center;
+}
+
+.centre {
+    margin: 0;
+    padding-top: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.url-bar {
+    grid-area: 3 / 2 / 4 / 3;
+    color: #AEB5AF;
+    background-color: #21252B;
+    padding: 12px 20px;
+    font-size: 100%;
+    border-width: 0px;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+.submit-button {
+    grid-area: 3 / 4 / 4 / 3;
+    color: #AEB5AF;
+    background-color: #21252B;
+    padding: 12px 20px;
+    font-size: 100%;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.submit-button:hover {
+    background-color: #272B33;
+}
+
+.submit-button:active {
+    background-color: #4A4E54;
+}
+
+.submit-button:focus {
+    outline: none;
+    border: none;
+}
+
+.output-box {
+    grid-area: 4 / 2 / 5 / 3;
+    background-color: #21252B;
+    color: #AEB5AF;
+    padding: 12px 20px;
+    font-size: 100%;
+    border-width: 0px;
+    border-style: solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 25% 45% 5% 25%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.title-area {
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.copy-button {
+    grid-area: 4 / 3 / 5 / 4;
+    color: #AEB5AF;
+    background-color: #21252B;
+    padding: 12px 20px;
+    font-size: 100%;
+    border: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.copy-button:hover {
+    background-color: #272B33;
+}
+
+.copy-button:active {
+    background-color: #4A4E54;
+}
+
+.copy-button:focus {
+    outline: none;
+    border: none;
+}
+
+.input-area>span {
+    grid-area: 3 / 4 / 5 / 5;
+}
+
+.invisible {
+    display: none;
+}

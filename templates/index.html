@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" href={{ url_for("static", filename="style.css" ) }}>
+  <script src={{ url_for("static", filename="app.js" )}}></script>
+</head>
+
+<body>
+
+  <div class="centre parent">
+    <div class="title-area">
+      <center>
+        <h1>URL Shortener</h1>
+      </center>
+    </div>
+    <input placeholder="Enter a URL" class="input-area url-bar" id="input-bar">
+    <button type="button" class="submit-button" onclick="formSubmit()">Shorten!</button>
+    <div class="invisible" id="output-box"></div>
+    <button class="invisible" id="copy-button" onclick="copyToClipboard()">Copy</button>
+  </div>
+  </div>
+  </div>
+
+</body>
