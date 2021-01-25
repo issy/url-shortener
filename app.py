@@ -21,10 +21,7 @@ def index():
 def add_link():
     try:
         body = request.get_json(force=True)
-        print(body)
     except:
-        print('reeeee')
-        print(request.data)
         return {'message': 'no body specified'}, 400
     url = body.get('target_url', None)
     while True:
