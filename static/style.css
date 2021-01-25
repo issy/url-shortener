@@ -105,6 +105,11 @@ input:focus {
     border: none;
 }
 
+#copy-button.active {
+    background-color: #80D577;
+    color: #FFF;
+}
+
 .input-area>span {
     grid-area: 3 / 4 / 5 / 5;
 }
